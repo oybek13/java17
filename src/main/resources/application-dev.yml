@@ -1,0 +1,10 @@
+server:
+  port: 7004
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/codb
+    username: postgres
+    password: oybek13#
+  jpa:
+    hibernate:
+      ddl-auto: update
